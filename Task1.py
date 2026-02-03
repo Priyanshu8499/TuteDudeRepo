@@ -8,4 +8,14 @@
 # o	Division
 # 3.  Displays the results of each operation on the screen.
 
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+add = a + b
+sub = a - b
+mul = a * b
+div = a / b
 
+print(f"Addition: {add}")
+print(f"Substraction:{sub}")
+print(f"Multiplication: {mul}")
+print(f"Division: {div}")
