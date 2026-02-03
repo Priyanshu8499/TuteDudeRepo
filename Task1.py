@@ -10,12 +10,12 @@
 
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
-add = a + b
-sub = a - b
-mul = a * b
-div = a / b
 
-print(f"Addition: {add}")
-print(f"Substraction:{sub}")
-print(f"Multiplication: {mul}")
-print(f"Division: {div}")
+print(f"Addition: {a + b}")
+print(f"Substraction:{a - b}")
+print(f"Multiplication: {a * b}")
+
+if b != 0:
+    print(f"Division: {a / b}")
+else:
+    print("Division: cannot divide by zero")
